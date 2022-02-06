@@ -34,10 +34,10 @@ Abre tu consola en la ubicación donde quieras clonar el repositorio:
 
 ```bash
 # Clona el repositorio
-$ git clone https://github.com/rammcodes/dopefolio
+$ git clone https://github.com/francodder/hangouts-clone
 
 # Entra a la carpeta del repositorio
-$ cd dopefolio
+$ cd hangouts-clone
 
 # Instala todas las dependencias
 $ npm install
