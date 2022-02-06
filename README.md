@@ -19,7 +19,7 @@
 
 ## Pre-requisitos 💻 
 
-Antes de comenzar, verifica que cumplas con los siguiente:
+Antes de comenzar, verifica que cumplas con lo siguiente:
 
 * Estar utilizando Windows como sistema operativo.
 * Tener instalado NodeJS
@@ -28,7 +28,7 @@ Antes de comenzar, verifica que cumplas con los siguiente:
 
 &nbsp;
 
-## Instalando 🔧
+## Instalando el proyecto 🔧
 
 Abre tu consola en la ubicación donde quieras clonar el repositorio:
 
@@ -64,7 +64,7 @@ Listo! La una nueva pestaña se abrirá en tu navegador preestablecido, la aplic
 
 ## 😄 Muchas gracias<br>
 
-Gracias por llegar hasta aquí, si te gustó este proyecto no te olvides de darme una estrella ⭐. Podes entrar a mi [perfíl](https://github.com/francodder) de GitHub y ver otros proyectos de mi portafolio en los que estoy trabajando, también podes contactarme a mi correo fran.rocchia@gmail.com 
+Gracias por llegar hasta aquí, si te gustó este proyecto no te olvides de darme una estrella ⭐. Podes entrar a mi [perfíl](https://github.com/francodder) de GitHub y ver otros proyectos de mi portafolio en los que estoy trabajando, también podés contactarme a mi correo fran.rocchia@gmail.com 
 <br>
 <br>
 
