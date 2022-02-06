@@ -1,8 +1,5 @@
 # HANGOUTS CLONE
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-
 <!-- ![git algo](https://img.shields.io/badge/-EN%20DESARROLLO-brigthgreen?style=for-the-badge) -->
 
 <!-- ![git algo](https://img.shields.io/badge/-EN%20DESARROLLO-success?style=for-the-badge) &nbsp; -->
@@ -14,8 +11,6 @@
 <!-- ![git algo](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge) -->
 
 
-
-
 <img src="preview.jpg" alt="exemplo imagem">
 
 >Esta app hecha con React fue uno de mis primeros proyectos, es una imitación de la interfaz de usuario (UI) de hangouts.
@@ -24,8 +19,8 @@
 
 ## Pre-requisitos 💻 
 
-Antes de comenzar, verifica que cumplas con los siguientes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+Antes de comenzar, verifica que cumplas con los siguiente:
+
 * Estar utilizando Windows como sistema operativo.
 * Tener instalado NodeJS
 * Tener instalado Git.
@@ -35,7 +30,7 @@ Antes de comenzar, verifica que cumplas con los siguientes requisitos:
 
 ## Instalando 🔧
 
-Desde tu consola de preferencia primero clona el repositorio:
+Abre tu consola en la ubicación donde quieras clonar el repositorio:
 
 ```bash
 # Clona el repositorio
@@ -48,6 +43,7 @@ $ cd dopefolio
 $ npm install
 ```
 
+&nbsp;
 
 
 
@@ -60,7 +56,7 @@ Usando NPM:
 $ npm run start
 ```
 
-Listo! La aplicación se abrirá en su navegador preestablecido en la url http://localhost:3000, ahora puedes interactuar con la interfaz, enviar mensajes y algunas cosas más.
+Listo! La una nueva pestaña se abrirá en tu navegador preestablecido, la aplicación estará corriendo en la url http://localhost:3000, ahora puedes interactuar con la interfaz, enviar mensajes y algunas cosas más.
 
 
 <br>
@@ -68,7 +64,7 @@ Listo! La aplicación se abrirá en su navegador preestablecido en la url http:/
 
 ## 😄 Muchas gracias<br>
 
-Gracias por llegar hasta aquí, si te gustó este proyecto podes entrar a mi [perfíl](https://github.com/francodder) de GitHub y ver otros proyectos de mi portafolio en los que estoy trabajando. Puedes contactarme a mi correo fran.rocchia@gmail.com 
+Gracias por llegar hasta aquí, si te gustó este proyecto no te olvides de darme una estrella ⭐. Podes entrar a mi [perfíl](https://github.com/francodder) de GitHub y ver otros proyectos de mi portafolio en los que estoy trabajando, también podes contactarme a mi correo fran.rocchia@gmail.com 
 <br>
 <br>
 
