@@ -1,0 +1,36 @@
+.body-lobby {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(../../assets/images/back1.jpg) center / cover no-repeat;
+}
+
+.aside {
+  width: 32rem;
+  height: 100vh;
+  justify-self: flex-start;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  /* background-color: blue; */
+}
+
+.bottom {
+  width: calc(100vw - 32rem);
+  height: 500px;
+  padding: 0 2rem 0 1rem;
+  max-height: fit-content;
+  align-self: flex-end;
+  display: grid;
+  grid-auto-flow: column dense;
+  column-gap: 30px;
+  justify-content: end;
+  align-items: end;
+  flex-direction: row-reverse;
+  /* background-color: yellow; */
+}

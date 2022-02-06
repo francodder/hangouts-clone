@@ -1,0 +1,337 @@
+.body-login {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: url(../../assets/images/login-background.jpg) center / cover
+    no-repeat;
+}
+
+.login-box {
+  position: relative;
+  width: 350px;
+  height: fit-content;
+  margin-top: -150px;
+  padding: 30px 30px 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 4px solid #10aade;
+  background: #fff;
+}
+
+.login-box:first-of-type {
+  padding-bottom: 50px;
+}
+
+.login-box__image {
+  width: 231px;
+  height: 90px;
+  margin-bottom: 10px;
+  justify-self: flex-start;
+}
+
+.login-box__separator {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box__form {
+  width: 100%;
+  color: #555;
+}
+
+.login-box:first-of-type .login-box__row:last-of-type {
+  margin-bottom: 5px;
+}
+
+.login-box__error {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: red;
+}
+
+.login-box__a {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.login-box__a:hover {
+  text-decoration: underline;
+}
+
+.login-box__a.forgot {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.login-box__progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #10aade;
+}
+
+.login-box__tittle {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.login-box__button-container {
+  position: relative;
+  width: 100%;
+  height: 34px;
+  justify-self: flex-end;
+  margin-top: auto;
+}
+
+.login-box__pp-description {
+  align-self: flex-start;
+  font-size: 1.6rem;
+}
+
+.login-box__pp-container {
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 20px 0;
+  border-radius: 50%;
+  border: 3px solid #10aade;
+  background: url(../../assets/images/default-pp.jpg) center / cover no-repeat;
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+.login-box__pp-container:hover {
+  background: url(../../assets/icons/camera.svg) center / 30% no-repeat,
+    url(../../assets/images/default-pp.jpg) center / cover no-repeat;
+}
+
+.login-box:last-of-type .login-box__row:last-of-type {
+  margin-bottom: 10px;
+}
+
+.login-box__error:last-of-type {
+  text-align: start;
+}
+
+.border-none {
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+/* ANIMACIONES */
+
+.progress0-1 {
+  width: calc(350px * 0.33);
+  animation-name: progress0-1;
+  animation-duration: 1s;
+}
+
+.progress1-2 {
+  width: calc(350px * 0.66);
+  animation-name: progress1-2;
+  animation-duration: 1s;
+}
+
+.progress2-3 {
+  width: 350px;
+  animation-name: progress2-3;
+  animation-duration: 1s;
+}
+
+.progress1-3 {
+  width: 350px;
+  animation-name: progress1-3;
+  animation-duration: 2s;
+}
+
+.progress1-0 {
+  width: 0;
+  animation-name: progress1-0;
+  animation-duration: 1s;
+}
+
+.progress2-1 {
+  width: calc(350px * 0.33);
+  animation-name: progress2-1;
+  animation-duration: 1s;
+}
+
+.progress3-2 {
+  width: calc(350px * 0.66);
+  animation-name: progress3-2;
+  animation-duration: 1s;
+}
+
+.progress3-1 {
+  width: calc(350px * 0.33);
+  animation-name: progress3-1;
+  animation-duration: 2s;
+}
+
+@keyframes progress0-1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: calc(350px * 0.33);
+  }
+}
+
+@keyframes progress1-2 {
+  from {
+    width: calc(350px * 0.33);
+  }
+
+  to {
+    width: calc(350px * 0.66);
+  }
+}
+
+@keyframes progress2-3 {
+  from {
+    width: calc(350px * 0.66);
+  }
+
+  to {
+    width: 350px;
+  }
+}
+
+@keyframes progress1-3 {
+  from {
+    width: calc(350px * 0.33);
+  }
+
+  to {
+    width: 350px;
+  }
+}
+
+@keyframes progress1-0 {
+  from {
+    width: calc(350px * 0.33);
+  }
+
+  to {
+    width: 0;
+  }
+}
+
+@keyframes progress2-1 {
+  from {
+    width: calc(350px * 0.66);
+  }
+
+  to {
+    width: calc(350px * 0.33);
+  }
+}
+
+@keyframes progress3-2 {
+  from {
+    width: 350px;
+  }
+
+  to {
+    width: calc(350px * 0.66);
+  }
+}
+
+@keyframes progress3-1 {
+  from {
+    width: 350px;
+  }
+
+  to {
+    width: calc(350px * 0.33);
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.growt0-1 {
+  animation-name: growt0-1;
+  animation-duration: 0.5s;
+}
+
+.growt1-2 {
+  animation-name: growt1-2;
+  animation-duration: 0.5s;
+}
+
+.growt1-0 {
+  animation-name: growt1-0;
+  animation-duration: 0.5s;
+}
+
+.growt2-1 {
+  animation-name: growt2-1;
+  animation-duration: 0.5s;
+}
+
+@keyframes growt0-1 {
+  from {
+    height: 344px;
+  }
+  to {
+    height: 404px;
+  }
+}
+
+@keyframes growt1-2 {
+  from {
+    height: 404px;
+  }
+  to {
+    height: 267px;
+  }
+}
+
+@keyframes growt1-0 {
+  from {
+    height: 404px;
+  }
+  to {
+    height: 344px;
+  }
+}
+
+@keyframes growt2-1 {
+  from {
+    height: 267px;
+  }
+  to {
+    height: 404px;
+  }
+}

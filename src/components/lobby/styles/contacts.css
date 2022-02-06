@@ -1,0 +1,180 @@
+.contact-section {
+  width: 100%;
+  min-height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------- USER DATA ----------------- */
+
+.user-data__conatiner {
+  position: relative;
+  width: 100%;
+  height: 7rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--bubble-1);
+}
+
+.user-data__pp {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  user-select: none;
+}
+
+.user-data__name {
+  margin-left: 1.5rem;
+  font-family: Roboto, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: white;
+  user-select: none;
+}
+
+.user-data__min-button {
+  position: absolute;
+  right: 2rem;
+  margin-top: 0.5rem;
+  width: 2rem;
+  height: 1.8rem;
+  display: inline-block;
+  background: url(../../../assets/icons/min-button.svg) center / cover no-repeat;
+}
+
+.max-button {
+  background: url(../../../assets/icons/maxim-button.svg) center / cover
+    no-repeat;
+}
+
+/* -------------- CONTACT LIST ----------------- */
+
+.contact-list__container {
+  width: 100%;
+  height: 43rem;
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: 6rem;
+  background-color: white;
+}
+
+.contact-card__container {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  padding: 0 2rem 0 3rem;
+  display: grid;
+  grid-template: 3rem 3rem / 4rem 1fr 2rem;
+  grid-template-areas: "pp name count" "pp message time";
+  column-gap: 1.5rem;
+  row-gap: 0.2rem;
+}
+
+.contact-card__container:hover .contact-card__status.connected {
+  background-color: var(--positive);
+}
+
+.contact-card__status {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1.5rem;
+  display: inline-block;
+}
+
+.contact-card__container:hover {
+  background-color: #d1e5ff;
+}
+
+.contact-card__pp {
+  width: 4rem;
+  height: 4rem;
+  grid-area: pp;
+  align-self: center;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.contact-card__name {
+  grid-area: name;
+  align-self: end;
+  font-family: Roboto, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: black;
+  user-select: none;
+}
+
+.contact-card__name.notified {
+  color: var(--bubble-1);
+}
+
+.contact-card__message {
+  margin-top: 0.4rem;
+  grid-area: message;
+  align-self: start;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: black;
+  user-select: none;
+
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-card__message.notified {
+  font-weight: 700;
+}
+
+.contact-card__message-count {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-bottom: 0.4rem;
+  grid-area: count;
+  align-self: end;
+  justify-self: end;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--bubble-1);
+}
+
+.contact-card__message-count.notified {
+  display: flex;
+}
+
+.contact-card__message-count p {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  user-select: none;
+}
+
+.contact-card__time {
+  margin-top: 0.4rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  grid-area: time;
+  align-self: start;
+  justify-self: end;
+  color: black;
+  user-select: none;
+}
+
+/* -------------- OTHERS ----------------- */
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,272 @@
+.chat-container {
+  width: 36rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem 2rem 0 0;
+  -webkit-box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.25);
+}
+
+/* ----------------- TOP BAR ------------------- */
+
+.top-bar__container {
+  width: 100%;
+  height: 6rem;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 4rem 1fr 7rem;
+  align-items: center;
+  column-gap: 1.5rem;
+  background: var(--dark-blue);
+  border-radius: 2rem 2rem 0 0;
+}
+
+.top-bar__container.notified {
+  background: #378cfc;
+}
+
+.top-bar__pp {
+  width: 4rem;
+  grid-column: 1/2;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.top-bar__description-container {
+  grid-column: 2/3;
+}
+
+.top-bar__name {
+  /* margin-top: 0.2rem; */
+  font-family: Roboto, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  user-select: none;
+}
+
+.top-bar__status {
+  margin: 0.3rem 0 0 0.3rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  color: white;
+  user-select: none;
+}
+
+.top-bar__status-indicator {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.indicador_connected {
+  background: var(--positive);
+}
+
+.indicator_disconnected {
+  background: #858585;
+}
+
+.top-bar__actions-container {
+  width: fit-content;
+  grid-column: 3/4;
+  display: flex;
+}
+
+.top-bar__min-button {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: inline-block;
+  background: url(../../../assets/icons/min-button.svg) center / cover no-repeat;
+}
+
+.max-button {
+  background: url(../../../assets/icons/maxim-button.svg) center / cover
+    no-repeat;
+}
+
+.top-bar__min-button:hover {
+  cursor: pointer;
+}
+
+.top-bar__max-button {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0 1.5rem 0 1.5rem;
+  display: inline-block;
+  background: url(../../../assets/icons/max-button.svg) center / cover no-repeat;
+}
+
+.top-bar__max-button:hover {
+  cursor: pointer;
+}
+
+.top-bar__close-button {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline-block;
+  background: url(../../../assets/icons/close-button.svg) center / cover
+    no-repeat;
+}
+
+.top-bar__close-button:hover {
+  cursor: pointer;
+}
+
+/* ----------------- MESSAGE BAR ------------------- */
+
+.message-bar__container {
+  width: 100%;
+  height: 38rem;
+  padding: 1.2rem 1.2rem;
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: min-content;
+  row-gap: 1rem;
+  overflow: auto;
+  background: url(../../../assets/images/chat-background.png) center / cover
+    no-repeat;
+  background-color: white;
+}
+
+.bubble {
+  width: fit-content;
+  min-width: 4rem;
+  max-width: 28rem;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.6rem 0.6rem 2.4rem 0.6rem;
+}
+
+.user-bubble {
+  justify-self: end;
+  border-radius: 1rem 0 1rem 1rem;
+  background-color: var(--bubble-1);
+}
+
+.other-bubble {
+  justify-self: start;
+  border-radius: 0 1rem 1rem 1rem;
+  background-color: var(--bubble-2);
+}
+
+.bubble p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+.bubble span {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+/* ----------------- LOW BAR ------------------- */
+
+.low-bar__container {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+}
+
+.low-bar__actions-container {
+  width: 95%;
+  height: 65%;
+  margin-top: 0.2rem;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  background: white;
+}
+
+.low-bar__attach-button {
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-left: 0.2rem;
+  display: inline-block;
+  background: url(../../../assets/icons/clip.svg) center / cover no-repeat;
+}
+
+.low-bar__attach-button:hover {
+  width: 3.3rem;
+  height: 3.3rem;
+  cursor: pointer;
+}
+
+.low-bar__emoji-button {
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-left: 0.3rem;
+  display: inline-block;
+  background: url(../../../assets/icons/emoji.svg) center / auto no-repeat;
+}
+
+.low-bar__emoji-button:hover {
+  width: 3.1rem;
+  height: 3.1rem;
+  cursor: pointer;
+}
+
+.low-bar__input {
+  width: 70%;
+  padding: 0 0 0 1rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+
+.low-bar__record-button {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left: 1.5rem;
+  display: inline-block;
+  background: url(../../../assets/icons/record.svg) center / auto no-repeat;
+}
+
+.low-bar__record-button:hover {
+  cursor: pointer;
+  background: url(../../../assets/icons/record-hover.svg) center / auto
+    no-repeat;
+}
+
+.low-bar__record-button:active {
+  cursor: pointer;
+  background: url(../../../assets/icons/stop-hover.svg) center / auto no-repeat;
+}
+
+.low-bar__send-button {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left: 1.5rem;
+  display: inline-block;
+  background: url(../../../assets/icons/send.svg) center / cover no-repeat;
+}
+
+.low-bar__send-button:hover {
+  cursor: pointer;
+  background: url(../../../assets/icons/send-hover.svg) center / cover no-repeat;
+}
+
+/* ----------------- OTHERS ------------------- */
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,50 @@
+.login-box__button {
+  height: 34px;
+  margin-top: 10px;
+  padding: 0 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.primary {
+  background-color: #10aade;
+}
+
+.primary:hover {
+  background-color: #20b8eb;
+}
+
+.secondary {
+  background-color: #8d8d8d;
+}
+
+.secondary:hover {
+  background-color: #aaaaaa;
+}
+
+.long {
+  width: 100%;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+}
+
+.disabled {
+  background-color: #8d8d8d;
+}
+
+.disabled:hover {
+  background-color: #8d8d8d;
+}
