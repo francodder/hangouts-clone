@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# HANGOUTS CLONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- ![git algo](https://img.shields.io/badge/-EN%20DESARROLLO-brigthgreen?style=for-the-badge) -->
 
-### `npm start`
+<!-- ![git algo](https://img.shields.io/badge/-EN%20DESARROLLO-success?style=for-the-badge) &nbsp; -->
+![git algo](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=22272E&style=for-the-badge) &nbsp;
+![GitHub repo size](https://img.shields.io/github/repo-size/francodder/hangouts-clone?style=for-the-badge) &nbsp;
+[![Github All Releases](https://img.shields.io/github/downloads/francodder/hangouts-clone/total.svg?style=for-the-badge)]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ANGULAR BADGE -->
+<!-- ![git algo](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=white&style=for-the-badge) -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<img src="preview.jpg" alt="exemplo imagem">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>Esta app hecha con React fue uno de mis primeros proyectos, es una imitación de la interfaz de usuario (UI) de hangouts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+&nbsp;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pre-requisitos 💻 
 
-### `npm run eject`
+Antes de comenzar, verifica que cumplas con los siguientes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Estar utilizando Windows como sistema operativo.
+* Tener instalado NodeJS
+* Tener instalado Git.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+&nbsp;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Instalando 🔧
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Desde tu consola de preferencia primero clona el repositorio:
 
-## Learn More
+```bash
+# Clona el repositorio
+$ git clone https://github.com/rammcodes/dopefolio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Entra a la carpeta del repositorio
+$ cd dopefolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instala todas las dependencias
+$ npm install
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ☕ Usando Hangouts clone
 
-### Making a Progressive Web App
+Usando NPM:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# Ejecuta la aplicación
+$ npm run start
+```
 
-### Advanced Configuration
+Listo! La aplicación se abrirá en su navegador preestablecido en la url http://localhost:3000, ahora puedes interactuar con la interfaz, enviar mensajes y algunas cosas más.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 😄 Muchas gracias<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gracias por llegar hasta aquí, si te gustó este proyecto podes entrar a mi [perfíl](https://github.com/francodder) de GitHub y ver otros proyectos de mi portafolio en los que estoy trabajando. Puedes contactarme a mi correo fran.rocchia@gmail.com 
+<br>
+<br>
+
+Que tengas un buen día!
+
+<br/>
+
+<p>
+  <a href="https://www.linkedin.com/[removed]" rel="nofollow noreferrer">
+    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+  </a> &nbsp; 
+</p>
