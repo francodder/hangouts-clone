@@ -17,7 +17,7 @@
 
 &nbsp;
 
-## Pre-requisitos 💻 
+## 💻 Pre-requisitos 
 
 Antes de comenzar, verifica que cumplas con lo siguiente:
 
@@ -28,7 +28,7 @@ Antes de comenzar, verifica que cumplas con lo siguiente:
 
 &nbsp;
 
-## Instalando el proyecto 🔧
+## 🔧 Instalando el proyecto
 
 Abre tu consola en la ubicación donde quieras clonar el repositorio:
 
