@@ -73,7 +73,7 @@ Que tengas un buen día!
 <br/>
 
 <p>
-  <a href="https://www.linkedin.com/in/franco-rocchia/" rel="nofollow noreferrer">
+  <a href="https://www.linkedin.com/in/franco-rocchia/" target="_blank" rel="nofollow noreferrer">
     <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
   </a> &nbsp; 
 </p>
